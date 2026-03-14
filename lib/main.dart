@@ -125,6 +125,16 @@ class LandingPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 30),
 
+                    // App Logo
+                    Center(
+                      child: Image.asset(
+                        'assets/images/app_logo.png',
+                        width: 120,
+                        height: 120,
+                      ),
+                    ),
+                    const SizedBox(height: 30),
+
                     // Stats row
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -135,6 +145,16 @@ class LandingPage extends StatelessWidget {
                       ],
                     ),
                     const SizedBox(height: 40),
+                    
+                    // Local Shop Image
+                    Center(
+                      child: Image.asset(
+                        'assets/images/local_shop.png',
+                        width: 280,
+                      ),
+                    ),
+                    const SizedBox(height: 30),
+                    
                     const Text(
                       'Stop wasting time.\nStart exploring now!',
                       style:
@@ -170,6 +190,15 @@ class LandingPage extends StatelessWidget {
                             Icon(Icons.arrow_forward, color: Colors.white),
                           ],
                         ),
+                      ),
+                    ),
+                    const SizedBox(height: 30),
+                    
+                    // Fashion Banner
+                    Center(
+                      child: Image.asset(
+                        'assets/images/fashion_banner.png',
+                        width: 320,
                       ),
                     ),
                     const SizedBox(height: 40),
